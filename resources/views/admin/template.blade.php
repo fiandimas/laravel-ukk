@@ -168,11 +168,15 @@
     <!-- Bootstrap Core Js -->
     <script src="{{ asset('plugins/bootstrap/js/bootstrap.js') }}"></script>
 
+    <script src="{{ asset('plugins/jquery-slimscroll/jquery.slimscroll.js') }}"></script>
+
     <!-- Waves Effect Plugin Js -->
     <script src="{{ asset('plugins/node-waves/waves.js') }}"></script>
     <script src="{{ asset('js/swal.js') }}"></script>
     <!-- Demo Js -->
-
+    <script src="{{ asset('js/demo.js') }}"></script>
+    <script src="{{ asset('js/admin.js') }}"></script>
+    <script src="{{ asset('js/pages/index.js') }}"></script> 
     <script src="{{ asset('plugins/jquery-datatable/jquery.dataTables.js') }}"></script>
     <script src="{{ asset('plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js') }}"></script>
     <script src="{{ asset('plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js') }}"></script>
